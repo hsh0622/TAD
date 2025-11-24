@@ -20,7 +20,7 @@ const Home = () => {
       }}
     >
       {/* 투명 오버레이 */}
-      <div className="flex flex-col items-center justify-center w-full min-h-screen p-0 bg-black/40 px-[120px]">
+      <div className="flex flex-col items-center justify-center w-full min-h-screen p-0 bg-black/20 backdrop-blur-[4px] px-[120px]">
         {/* 내용 — 좌우 여백 제거 */}
         <div className="w-full py-10 text-center max-w-screen">
           <h1 className="mb-6 text-5xl font-extrabold text-white">
