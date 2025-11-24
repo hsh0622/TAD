@@ -15,7 +15,7 @@ const MapPage = () => {
     );
   }
   return (
-    <div className="flex flex-col h-full gap-4 p-4">
+    <div className="flex flex-col h-full gap-4 p-4 px-[150px]">
       {" "}
       <h1 className="text-3xl font-bold text-gray-800">
         접근성 지도 분석
