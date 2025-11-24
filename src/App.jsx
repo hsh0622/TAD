@@ -62,7 +62,7 @@ function App() {
       </Helmet>
       <div className="min-h-screen bg-gray-50">
         <Navigation />
-        <main className="mx-auto max-w-7xl">
+        <main className="mx-auto">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/map" element={<MapPage />} />
