@@ -37,7 +37,7 @@ const Navigation = () => {
               <img src="/logo.png" alt="로고" className="w-10 h-10" />
               <span className="ml-2 text-xl font-bold text-blue-600">TAD</span>
               <span className="hidden ml-2 text-lg font-semibold text-gray-900 sm:block">
-                Transport Accessibility
+                Transport Access
               </span>
             </Link>
           </div>
