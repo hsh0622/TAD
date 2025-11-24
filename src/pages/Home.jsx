@@ -34,19 +34,19 @@ const Home = () => {
           {/* 카드 3개 예시 */}
           <div className="grid grid-cols-1 gap-8 px-10 sm:grid-cols-2 lg:grid-cols-3">
             <FeatureCard
-              title="지역별 분석"
-              description="시군구 기준 접근성 수치를 비교합니다"
-              link="/analysis"
-            />
-            <FeatureCard
-              title="지도 보기"
-              description="지도를 기반으로 접근성을 시각적으로 확인"
+              title="지도 분석"
+              description="접근성 점수와 취약 지역을 시각화한 인터랙티브 지도입니다."
               link="/map"
             />
             <FeatureCard
-              title="통계 자료"
-              description="대중교통 기반 통계 데이터를 제공합니다"
-              link="/stats"
+              title="데이터 차트"
+              description="고령화율, 인구, 교통 접근성 간의 상관관계를 심층 분석합니다."
+              link="/charts"
+            />
+            <FeatureCard
+              title="정책 제안"
+              description="각 지역의 특성에 맞춘 AI 기반 맞춤형 정책 솔루션을 제안합니다."
+              link="/solutions"
             />
           </div>
         </div>
